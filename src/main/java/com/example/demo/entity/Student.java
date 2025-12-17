@@ -8,9 +8,10 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 @Entity
-@Id
-@GeneratedValue(strategy=GenerationType.IDENTITY)
+
 public class Student{
+    @Id
+@GeneratedValue(strategy=GenerationType.IDENTITY)
     private long id;
     private String name;
     private LocalDate dob;
