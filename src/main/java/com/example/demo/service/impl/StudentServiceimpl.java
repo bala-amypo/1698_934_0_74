@@ -15,6 +15,10 @@ public Student insertStudent (student st){
   save(st)
 }
   @Override
-  
+  public List<student>getAllStudents(){
+    return StudentRepo.findAll()
+  }
+  @Override
+  public 
 
 }
