@@ -11,6 +11,10 @@ public class StudentServiceimpl implements StudentService{
     @Autowired
 StudentRepo st;
 @Override
-public Student insertStudent st;
+public Student insertStudent (student st){
+  save(st)
+}
+  @Override
+  
 
 }
